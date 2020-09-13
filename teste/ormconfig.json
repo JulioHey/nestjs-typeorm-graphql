@@ -1,0 +1,15 @@
+{
+    "type": "sqlite",
+    "database": "./data/dev.db",
+   "logging": true,
+   "entities": [
+      "src/db/models/*.ts"
+   ],
+   "migrations": [
+      "src/db/migration/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/db/models",
+      "migrationsDir": "src/db/migration"
+   }
+}
